@@ -7,7 +7,7 @@
     <title>GuiVagas</title>
 </head>
 <body>
-    <button><a href="index.php" style="text-decoration: none;">Adcionar Vaga</a></button>
+    <button><a href="adcionar-vaga.php" style="text-decoration: none;">Adcionar Vaga</a></button>
     <?php 
     require_once 'includes/sistema.php';
     require_once 'layouts/direitos.php';
