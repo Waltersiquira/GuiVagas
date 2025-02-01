@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 01/02/2025 às 16:57
+-- Tempo de geração: 01/02/2025 às 19:25
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -33,7 +33,7 @@ CREATE TABLE `vagas` (
   `descrição` text NOT NULL,
   `candidatos` int(11) NOT NULL,
   `localização` varchar(150) NOT NULL,
-  `imagem` text NOT NULL
+  `imagem` text NOT NULL DEFAULT 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj7YDymG7tFsuSXjlOPlAMR406aqx5mWVI2A&s'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
